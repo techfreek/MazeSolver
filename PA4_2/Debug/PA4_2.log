@@ -1,40 +1,30 @@
-﻿Build started 9/11/2013 7:54:01 AM.
-     1>Project "C:\Users\Alex\Documents\College\Spring 2013\CptS223\Alex_Bahm_prog4\PA4_2\PA4_2.vcxproj" on node 2 (build target(s)).
+﻿Build started 9/18/2013 11:18:23 PM.
+     1>Project "C:\Users\Alex\Documents\College\CptS\CptS 223\MazeSolver\PA4_2\PA4_2.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\PA4_2.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp maze.cpp
-         maze.cpp
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\maze.cpp(12): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\maze.cpp(84): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(86) : see declaration of 'ctime'
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\maze.cpp(87): warning C4129: 'M' : unrecognized character escape sequence
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\maze.cpp(91): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\maze.cpp(260): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\maze.cpp(380): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\maze.cpp(497): warning C4018: '<' : signed/unsigned mismatch
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(8): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(186): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(9): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(122): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(181): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(192): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(186): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(198): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(192): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(192): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(204): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(204): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(198): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(198): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(210): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(210): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(204): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(204): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
-     1>c:\users\alex\documents\college\spring 2013\cpts223\alex_bahm_prog4\pa4_2\main.cpp(22): warning C4101: 'mazeVectorOLD' : unreferenced local variable
-         Generating Code...
+     1>c:\users\alex\documents\college\cpts\cpts 223\mazesolver\pa4_2\main.cpp(29): warning C4101: 'mazeVectorOLD' : unreferenced local variable
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Documents\College\Spring 2013\CptS223\Alex_Bahm_prog4\Debug\PA4_2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PA4_2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Alex\Documents\College\Spring 2013\CptS223\Alex_Bahm_prog4\Debug\PA4_2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Documents\College\Spring 2013\CptS223\Alex_Bahm_prog4\Debug\PA4_2.lib" /MACHINE:X86 Debug\PA4_2.exe.embed.manifest.res
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Documents\College\CptS\CptS 223\MazeSolver\Debug\PA4_2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PA4_2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Alex\Documents\College\CptS\CptS 223\MazeSolver\Debug\PA4_2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Documents\College\CptS\CptS 223\MazeSolver\Debug\PA4_2.lib" /MACHINE:X86 Debug\PA4_2.exe.embed.manifest.res
          Debug\disjointSets.obj
          Debug\main.obj
          Debug\maze.obj
@@ -45,12 +35,12 @@
          All outputs are up-to-date.
        LinkEmbedManifest:
          All outputs are up-to-date.
-         PA4_2.vcxproj -> C:\Users\Alex\Documents\College\Spring 2013\CptS223\Alex_Bahm_prog4\Debug\PA4_2.exe
+         PA4_2.vcxproj -> C:\Users\Alex\Documents\College\CptS\CptS 223\MazeSolver\Debug\PA4_2.exe
        FinalizeBuildStatus:
          Deleting file "Debug\PA4_2.unsuccessfulbuild".
          Touching "Debug\PA4_2.lastbuildstate".
-     1>Done Building Project "C:\Users\Alex\Documents\College\Spring 2013\CptS223\Alex_Bahm_prog4\PA4_2\PA4_2.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Alex\Documents\College\CptS\CptS 223\MazeSolver\PA4_2\PA4_2.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.18
+Time Elapsed 00:00:00.87

@@ -356,7 +356,7 @@ stack<int>* maze::bfs()
 }
 
 stack<int>* maze::dfs()
-{ 
+	{ 
 	/*
 		Start this, remember to use a trianary tree or a quadrinary tree to store the 
 		point in addition to a parent pointer, so we can work our way back up maybe consider a disjoint
@@ -617,4 +617,43 @@ bool maze::deadEnd(mazeNode* currNode)
 	}
 	return true; //if all are closed, we know it is in a deadend
 
+}
+
+int maze::getRooms()
+{
+	return this->mazeRooms;
+}
+
+void maze::exportMaze()
+{
+	char* tempchar =  new char();
+	string fileName = "";
+	string file = "Maze.txt";
+	itoa(this->getRooms(), tempchar, 10);
+	fileName.append(string(tempchar));
+	fileName.append(file);
+	ofstream exported;
+	exported.open(fileName);
+	exported << tempchar << endl;
+	for(int i = 0; i < this->getRooms(); i++)
+	{
+		if(mazeRoom->at(i)->northD)
+			exported << "1 ";
+		else
+			exported << "0 ";
+		if(mazeRoom->at(i)->southD)
+			exported << "1 ";
+		else
+			exported << "0 ";
+		if(mazeRoom->at(i)->eastD)
+			exported << "1 ";
+		else
+			exported << "0 ";
+		if(mazeRoom->at(i)->westD)
+			exported << "1 ";
+		else
+			exported << "0 ";
+		exported << '\n';
+	}
+	exported.close();
 }

@@ -28,8 +28,10 @@ public:
 	stack<int>*dfs();
 	
 	bool connected();
+	int getRooms();
 
 	void fileWrite(string text);
+	void exportMaze();
 
 private:
 	bool deadEnd(mazeNode* currNode);
